@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Foodology</title>
 </head>
 
@@ -18,17 +20,29 @@
         <div class="container">
             <div class="header__nav">
                 <div class="header__nav--logo">
+                    <a href="" class="m-menu-link">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <ul class="m-header__nav--items">
+                        <li class="close_menu">&times;</li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Foods</a></li>
+                        <li><a href="">Pricing</a></li>
+                    </ul>
                     <a href="">Foodology</a>
                 </div>
-                <ul class="header__nav--items">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Foods</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Sign In</a></li>
-                    <li> <a href=""> <img src="img/symbol_nav.png" alt="symbol"> </a> </li>
-                </ul>
+                <div class="header__nav__main">
+                    <ul class="header__nav--items">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Foods</a></li>
+                        <li><a href="">Pricing</a></li>
+                    </ul>
+                    <div class="header__nav--btn">
+                        <a href="">Sign In</a>
+                        <a href=""> <i class="fas fa-shopping-bag"></i></a>
+                    </div>
+                </div>
             </div>
-        </div>
         </div>
     </header>
 
@@ -148,7 +162,7 @@
                 <div class="product__body__slider">
                     <div class="product__body__slider--text">
                         <h3>Breakfast Monday</h3>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labort.</p>
                     </div>
                     <div class="product__body__slider__slider">
@@ -213,6 +227,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <section class="subscribe">
         <div class="container">
